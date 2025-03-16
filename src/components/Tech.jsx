@@ -15,6 +15,7 @@ const Tech = () => {
       <div className='flex flex-row flex-wrap justify-center gap-10'>
         {technologies.map(({icon, name}, index) => (
           <Tilt className='w-28 h-28' key={name}>
+            <p className="text-white mt-5 text-lg font-semibold">{name}</p>
           <motion.div
             variants={fadeIn("right", "spring", index * 0.5, 0.75)}
             className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
