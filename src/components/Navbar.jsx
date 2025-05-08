@@ -41,7 +41,7 @@ const Navbar = () => {
             if (isMobile) setToggle(false);
           }}
         >{
-            id === "resume" ? <a href="/Jagadeeswar resume.pdf" target="_blank">{title}</a>
+            id === "resume" ? <a href="/Jagadeeswar.pdf" target="_blank">{title}</a>
               :
               <a href={`#${id}`}>{title}</a>
           }</li>
